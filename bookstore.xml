@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bookstore SYSTEM "bookStoreType.dtd">
+
+<bookstore> <!-- only one root -->     
+  <book category="cooking" b_id="b1">     <!-- Parent -->
+    <title lang="en">Everyday Italian</title> <!-- child -->
+    <author>Giada De Laurentiis</author> <!-- child -->
+    <year>2005</year> <!-- child -->
+    <price>30.00</price> <!-- child -->
+  </book>
+  <book category="children" b_id="b2">
+    <title lang="en">Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+  <book category="web" b_id="b3">
+    <title lang="en">Learning XML</title>
+    <author>Erik T. Ray</author>
+    <year>2003</year>
+    <price>39.95</price>
+  </book>
+</bookstore>
